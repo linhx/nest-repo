@@ -1,0 +1,25 @@
+{
+  "name": "@linhx/nest-repo",
+  "version": "0.0.5",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linhx/nest-repo.git"
+  },
+  "author": "linhx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linhx/nest-repo/issues"
+  },
+  "homepage": "https://github.com/linhx/nest-repo#readme",
+  "dependencies": {
+    "@linhx/rest-common": "^0.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
