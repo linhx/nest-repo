@@ -1,6 +1,6 @@
 {
   "name": "@linhx/nest-repo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/linhx/nest-repo#readme",
   "dependencies": {
-    "@linhx/rest-common": "^0.0.3"
+    "@linhx/rest-common": "^0.0.4"
   },
   "devDependencies": {
     "typescript": "^4.8.2"
