@@ -6,3 +6,7 @@ export interface Db {
     callback: (transaction: Transaction) => Promise<any>
   );
 }
+
+export interface TransactionStore {
+  getTransaction(): Transaction;
+}

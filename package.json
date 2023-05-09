@@ -1,10 +1,11 @@
 {
   "name": "@linhx/nest-repo",
-  "version": "0.0.6",
+  "version": "2.0.0-beta.2",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "publ": "npm i && npm run build && npm publish --access public"
   },
   "repository": {
     "type": "git",
