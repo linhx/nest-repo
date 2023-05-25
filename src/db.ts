@@ -9,4 +9,5 @@ export interface Db {
 
 export interface TransactionStore {
   getTransaction(): Transaction;
+  existsUuid(uuid: string): boolean;
 }
